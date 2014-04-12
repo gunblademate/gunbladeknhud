@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
 		"fieldName"		"scoreinfo"
-		"xpos"			"c-320"
+		"xpos"			"c-300"
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"avatar_width"		"60"	[$WIN32]
-		"name_width"		"45"	[$WIN32]
+		"name_width"		"85"	[$WIN32]
 		"status_width"		"15"	[$WIN32]
 		"nemesis_width"		"15"	[$WIN32]
 		"class_width"		"15"	[$WIN32]
@@ -48,7 +48,7 @@
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"textinsetx"		"20"
-		"xpos"			"c-200"
+		"xpos"			"c-240"
 		"ypos"			"c-28"	[$WIN32]
 		"wide"			"200"
 		"tall"			"20"
@@ -137,7 +137,7 @@
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"textinsetx"		"20"
-		"xpos"			"c-200"
+		"xpos"			"c-240"
 		"ypos"			"c-15"
 		"wide"			"100"
 		"tall"			"20"
@@ -160,7 +160,7 @@
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"textinsetx"		"20"
-		"xpos"			"c0"
+		"xpos"			"c60"
 		"ypos"			"c-28"	[$WIN32]
 		"wide"			"200"
 		"tall"			"20"
@@ -231,7 +231,7 @@
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
 		"textinsetx"		"20"
-		"xpos"			"c0"
+		"xpos"			"c60"
 		"ypos"			"c-15"
 		"wide"			"200"
 		"tall"			"20"
@@ -295,10 +295,10 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"c-197"
+		"xpos"			"c-247"
 		"ypos"			"c0"
 		"zpos"			"20"
-		"wide"			"200"
+		"wide"			"240"
 		"tall"			"178"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -317,10 +317,10 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"c-3"
+		"xpos"			"c9"
 		"ypos"			"c0"
 		"zpos"			"20"
-		"wide"			"200"
+		"wide"			"260"
 		"tall"			"178"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -350,8 +350,8 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"textinsetx"		"20"
-		"xpos"			"c-340"
-		"ypos"			"r65"	[$WIN32]
+		"xpos"			"c110"
+		"ypos"			"r290"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"320"
 		"tall"			"20"
@@ -402,11 +402,26 @@
 		"enabled"		"1"	
 		"fillcolor"		"0 0 0 130"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 	"LocalBG2"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"LocalBG2"
+		"xpos"			"c-260"
+		"ypos"			"r273"	[$WIN32]
+		"zpos"			"-4"
+		"wide"			"540"
+		"tall"			"220"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"	
+		"fillcolor"		"0 0 0 130"
+		"PaintBackgroundType"	"0"
+	}		
+	"LocalBG3"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"LocalBG3"
 		"xpos"			"c-200"
 		"ypos"			"r272"	[$WIN32]
 		"zpos"			"-2"

@@ -151,7 +151,7 @@ quartered Circle
 Dot
 ------------------------------------------																																																																																							" " ' "} " "{
 
-	"visible"	"1"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair11" "labelText" "k" "font"
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair11" "labelText" "k" "font"
 
 	"size: 24, outline: on"
 
@@ -211,7 +211,7 @@ round brackets with a dot in the middle
 round brackets
 ------------------------------------------																																																																																							" " ' "} " "{
 
-	"visible"	"1"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair15" "labelText" "o" "font"
+	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair15" "labelText" "o" "font"
 
 	"size: 24, outline: on"
 
@@ -316,39 +316,20 @@ Batman
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairKonrWings"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"2"
 
-		"xpos"			"c-30"
+		"xpos"			"c-29"
 		"ypos"			"c-24"
-		"wide"			"51"
+		"wide"			"50"
 		"tall"			"50"
 
 		"font"			"CrossHairKonrWings"
 		"labelText"		"Z"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"248 248 255 255"
-	}
-	CrossHairKonrWings2
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"CrossHairKonrWings"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-30"
-		"ypos"			"c-24"
-		"wide"			"52"
-		"tall"			"50"
-
-		"font"			"CrossHairKonrWings"
-		"labelText"		"Z"
-		"textAlignment"	"center"	
-		
-		"fgcolor"		"248 248 255 255"
+		"fgcolor"		"255 255 255 255"
 	}
 	xHairImg
 	{

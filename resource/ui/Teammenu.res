@@ -91,8 +91,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&3"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		"&1. Blue Team"	[$WIN32]
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -101,9 +100,11 @@
 		"team"				"3"		// team blue
 		"associated_model"	"bluedoor"
 		"hover"				"2.0"
-		"font"			"invisible"
-		"fgcolor"		"255 255 255 0"
-		"fgcolor_override"	"255 255 255 0"
+		"font"			"knfontregular16"
+		"defaultFgColor_override" 	"knWhite"
+		"armedFgColor_override" 	"knBonus"
+		"depressedFgColor_override" 	"knBonus2"
+		"selectedFgColor_override" 	"knBonus"
 	}
 
 	"teambutton1"
@@ -120,8 +121,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"4"
-		"labelText"		"&4"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		"&2. Red Team"	[$WIN32]
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -130,9 +130,12 @@
 		"team"				"2"		// team red
 		"associated_model"	"reddoor"	
 		"hover"				"2.0"
-		"font"			"invisible"
-		"fgcolor"		"255 255 255 0"
-		"fgcolor_override"	"255 255 255 0"
+		"font"			"knfontregular16"
+		"fgcolor"			"knWhite"
+		"defaultFgColor_override" 	"knWhite"
+		"armedFgColor_override" 	"knLow"
+		"depressedFgColor_override" 	"knLow2"
+		"selectedFgColor_override" 	"knLow"
 	}
 
 	"teambutton2"
@@ -149,16 +152,20 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		""	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		"&4. Random"	[$WIN32]
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
 		"associated_model"	"autodoor"
-		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
+		"font"			"knFontRegular11"
+		"fgcolor"		"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"KnBonus2"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"Knbonus2"
 	}
 	
 	"teambutton3"
@@ -166,7 +173,7 @@
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton3"
 		"xpos"			"50"
-		"ypos"			"220"
+		"ypos"			"180"
 		"zpos"			"3"
 		"wide"			"150"
 		"tall"			"20"
@@ -175,16 +182,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		""	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		"&3. Spectate"	[$WIN32]
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"	
-		"font"			"MenuMainTitle"
+		"font"			"knFontRegular11"
 		"fgcolor"		"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"kndamage3"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"kndamage3"
 	}
 	
 	"CancelButton" [$WIN32] 
@@ -201,7 +211,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"#TF_Cancel"
+		"labelText"		"Cancel"
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -209,12 +219,11 @@
 		"textinsetx"	"0"
 		"command"		"cancelmenu"
 		"font"			"knFontRegular11"
-		"fgcolor"		"knWhite"
-		"fgcolor"			"knWhite"
-		"defaultFgColor_override" 	"knWhite"
-		"armedFgColor_override" 	"knDamage"
-		"depressedFgColor_override" 	"knDamage"
-		"selectedFgColor_override" 	"knDamage"
+		"fgcolor"		"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"kndamage"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"kndamage"
 	}
 	
 	"TeamMenuSelect"
@@ -234,8 +243,8 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"font"			"knFontRegular14"
-		"fgcolor"			"knWhite"
+		"font"			"knFontbold21"
+		"fgcolor"			"255 255 255 190"
 	}
 	
 	"TeamMenuAuto"
@@ -249,7 +258,7 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Random"
 		"textAlignment"		"west"
@@ -275,7 +284,7 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"west"
@@ -302,14 +311,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"BLU"
+		"labelText"		""
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"knFontRegular16"
 		"fgcolor"		"knWhite"
-		"fgcolor"			"knWhite"
 		"defaultFgColor_override" 	"knWhite"
 		"armedFgColor_override" 	"knBonus"
 		"depressedFgColor_override" 	"knBonus2"
@@ -328,7 +336,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"RED"
+		"labelText"		""
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"

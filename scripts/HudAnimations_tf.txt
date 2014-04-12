@@ -478,6 +478,10 @@ event HudMedicCharged
 {
 	Animate	ChargeLabel 	FgColor		"knBonus"		Linear 0.0 0.1
 	Animate	ChargeLabel 	FgColor		"knBonus2"		Linear 0.3 0.4
+
+	Animate	ChargeLabelSmall 	FgColor		"knBonus"		Linear 0.0 0.1
+	Animate	ChargeLabelSmall 	FgColor		"knBonus2"		Linear 0.3 0.4
+	
 	
 	Animate	ChargeMeter 	FgColor		"knBonus2"		Linear 0.0 0.1
 	Animate	ChargeMeter 	FgColor		"knBonus"		Linear 0.3 0.4
@@ -511,6 +515,8 @@ event HudMedicChargedStop
 	Animate	ChargeMeter2 	FgColor		"knWhite"		Linear 0.0 0.0001
 	Animate	ChargeMeter3 	FgColor		"knWhite"		Linear 0.0 0.0001
 	Animate	ChargeMeter4 	FgColor		"knWhite"		Linear 0.0 0.0001
+
+	Animate	ChargeLabelSmall 	FgColor		"knWhite"		Linear 0.0 0.0001
 }
 
 //====================================

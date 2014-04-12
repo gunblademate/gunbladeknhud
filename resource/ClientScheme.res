@@ -2028,6 +2028,17 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		knFontBoldest16
+		{
+			"1"
+			{
+				"name"		"Maven Pro Bold"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
 		knFontDamageBold
 		{
 			"1"
