@@ -254,8 +254,8 @@
 		"labelText"		"%server%"
 		"textAlignment"		"east"
 		"textinsetx"		"20"
-		"xpos"			"c50"
-		"ypos"			"r70"
+		"xpos"			"c-420"
+		"ypos"			"r335"
 		"zpos"			"2"
 		"wide"			"320"
 		"tall"			"20"
@@ -350,8 +350,8 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"textinsetx"		"20"
-		"xpos"			"c110"
-		"ypos"			"r290"	[$WIN32]
+		"xpos"			"c60"
+		"ypos"			"r335"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"320"
 		"tall"			"20"

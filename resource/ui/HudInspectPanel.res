@@ -33,7 +33,21 @@
 			"use_item_rendertarget" "1"
 			"useparentbg"		"1"
 		}
-		
+		"ItemBackground"
+		{
+			"ControlName" "ImagePanel"
+			"fieldName" "ItemBackground"
+			"xpos" "0"
+			"ypos" "0"
+			"zpos" "-99"
+			"wide" "290"
+			"tall" "900"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "0 0 0 170"
+		}
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"
@@ -55,3 +69,4 @@
 		}
 	}	
 }
+
