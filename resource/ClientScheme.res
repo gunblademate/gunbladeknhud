@@ -4139,7 +4139,18 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
+		"ItemFontAttribSmaller"
+		{
+			"1"
+			{
+				"name"		"Maven Pro Medium"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 		
 		"AchievementTracker_Name"
 		{
